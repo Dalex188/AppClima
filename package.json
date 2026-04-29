@@ -1,0 +1,13 @@
+{
+  "name": "clima-guatemala",
+  "version": "1.0.0",
+  "description": "App web del clima para Guatemala con Open-Meteo API",
+  "scripts": {
+    "test": "node tests/run-all.test.js",
+    "test:syntax": "node -c script.js && echo 'Sintaxis OK'",
+    "test:api": "node tests/api.test.js"
+  },
+  "keywords": ["weather", "guatemala", "open-meteo"],
+  "author": "",
+  "license": "MIT"
+}
